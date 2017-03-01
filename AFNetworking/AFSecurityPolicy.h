@@ -31,7 +31,11 @@ typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
 /**
  `AFSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
 
+AFSecurityPolicy 通过安全连接评估对固定的X.509证书和公钥的服务器信任。
+ 
  Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.
+    将固定的SSL证书添加到您的应用程序有助于防止中间人攻击和其他漏洞。 强烈建议处理敏感客户数据或财务信息的应用程序通过配置和启用SSL绑定的HTTPS连接路由所有通信
+ 
  */
 
 NS_ASSUME_NONNULL_BEGIN
