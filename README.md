@@ -11,6 +11,8 @@
 
 AFNetworking is a delightful networking library for iOS and Mac OS X. It's built on top of the [Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html), extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.
 
+AFNetworking 是一个为iOS和Mac开发所定制的轻量级的网络库。它是对[Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html)进行了一层比较强大的，高水平的封装。它提供丰富的程序接口，模块化的层次结构，非常便于使用。
+
 Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to AFNetworking every day. AFNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.
 
 Choose AFNetworking for your next project, or migrate over your existing projects—you'll be happy you did!
