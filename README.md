@@ -11,15 +11,20 @@
 
 AFNetworking is a delightful networking library for iOS and Mac OS X. It's built on top of the [Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html), extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.
 
-AFNetworking 是一个为iOS和Mac开发所定制的轻量级的网络库。它是对[Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html)进行了一层比较强大的，高水平的封装。它提供丰富的程序接口，模块化的层次结构，非常便于使用。
+AFNetworking 是一个为iOS和Mac开发所定制的轻量级的网络库。它是对 [Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html) 进行了一层比较强大的，高水平的封装。它提供丰富的程序接口，模块化的层次结构，非常便于使用。
 
 Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to AFNetworking every day. AFNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.
 
+可能对于所有的特性而言，最重要的一点还是每天都有着特别多的社区开发者对于它做出贡献。它支持着一些 iPhone, iPad, and Mac 上的非常流行的、广受好评的应用。
+
 Choose AFNetworking for your next project, or migrate over your existing projects—you'll be happy you did!
 
-## How To Get Started
+你可能非常乐意在您的下一个项目或者在现有的项目里使用 AFNetworking。
+
+## How To Get Started   如何开始呢?
 
 - [Download AFNetworking](https://github.com/AFNetworking/AFNetworking/archive/master.zip) and try out the included Mac and iPhone example apps
+  [下载 AFNetworking](https://github.com/AFNetworking/AFNetworking/archive/master.zip) 并且试着体验一下里面包含的Mac 和 iPhone的示例程序。
 - Read the ["Getting Started" guide](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking), [FAQ](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-FAQ), or [other articles on the Wiki](https://github.com/AFNetworking/AFNetworking/wiki)
 - Check out the [documentation](http://cocoadocs.org/docsets/AFNetworking/) for a comprehensive look at all of the APIs available in AFNetworking
 - Read the [AFNetworking 3.0 Migration Guide](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-3.0-Migration-Guide) for an overview of the architectural changes from 2.0.
