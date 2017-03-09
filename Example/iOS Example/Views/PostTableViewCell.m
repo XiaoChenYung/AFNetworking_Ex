@@ -51,7 +51,7 @@
 
     self.textLabel.text = _post.user.username;
     self.detailTextLabel.text = _post.text;
-    [self.imageView setImageWithURL:_post.user.avatarImageURL placeholderImage:[UIImage imageNamed:@"profile-image-placeholder"]];
+//    [self.imageView setImageWithURL:_post.user.avatarImageURL placeholderImage:[UIImage imageNamed:@"profile-image-placeholder"]];
     
     [self setNeedsLayout];
 }
