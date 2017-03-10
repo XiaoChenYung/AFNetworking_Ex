@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "GlobalTimelineViewController.h"
-
+#import "AFAppDotNetAPIClient.h"
 #import "Post.h"
 
 #import "PostTableViewCell.h"
@@ -60,7 +60,13 @@
 
     self.tableView.rowHeight = 70.0f;
     
-    [self reload:nil];
+    [[AFAppDotNetAPIClient sharedClient] POST:@"/api/accounts/register" parameters:@{@"email":@"1873022288",@"name":@"杨晓晨",@"password":@"123456"} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@",responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+    }];;
+    
+//    [self reload:nil];
 }
 
 #pragma mark - UITableViewDataSource
